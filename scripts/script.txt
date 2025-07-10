@@ -1,0 +1,9 @@
+sudo apt-get install git-lfs
+
+pip install -r requirements.txt
+
+git clone https://huggingface.co/meta-llama/Llama-2-7b-hf
+git clone https://huggingface.co/huggyllama/llama-7b
+
+python scripts/convert_hf_checkpoint.py --checkpoint_dir /path/to/hf_checkpoint
+python scripts/prepare_alpaca.py --destination_path data/llama --checkpoint_dir checkpoints/path/to/hf_checkpoint

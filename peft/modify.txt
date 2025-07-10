@@ -1,0 +1,15 @@
+~/.conda/envs/l4q/lib/python3.11/site-packages/peft/tuners/lora/model.py
+    line 202
+~/.conda/envs/l4q/lib/python3.11/site-packages/peft/utils/save_and_load.py
+    line 96, 350
+    line 2796
+
+~/.conda/envs/l4q/lib/python3.11/site-packages/peft/tuners/lora/config.py
+    map quant/l4q_config.py
+~/.conda/envs/l4q/lib/python3.11/site-packages/peft/tuners/lora/layer.py
+    map quant/l4q_layer.py
+~/.conda/envs/l4q/lib/python3.11/site-packages/transformers/trainer.py
+    map quant/l4q_trainer.py
+
+~/.conda/envs/l4q/lib/python3.11/site-packages/peft/tuners/lora/quantizer.py
+    create quant/l4q_quantizer.py

@@ -1,0 +1,2 @@
+python evaluate/llama.py --model_size 7b --w_bits 4 --lora_path out/l4q/llama-1/checkpoint_file.pth --checkpoint_dir checkpoints/path/to/lit_checkpoint
+python evaluate/lora.py --model_size 7b --w_bits 4 --lora_path out/l4q/llama-2/checkpoint_file.pth --checkpoint_dir checkpoints/path/to/lit_checkpoint
